@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="login_subtitle">Jou hele kampus op een plek</string>
+    <string name="sign_in_google">Teken in met Google</string>
+    <string name="skip_testing">Slaan nou oor (slegs vir toetsing)</string>
+    <string name="welcome_user">Welkom, %1$s</string>
+    <string name="open_settings">Instellings</string>
+    <string name="settings_title">Profiel en instellings</string>
+    <string name="language">Taal</string>
+    <string name="notif_prefs">Kennisgewings</string>
+    <string name="notif_assignments">Opdragte wat verval</string>
+    <string name="notif_timetable">Tydtafelveranderinge</string>
+    <string name="notif_announcements">Nuwe aankondigings</string>
+    <string name="notif_events">Geleentheidsherinneringe</string>
+    <string name="notif_discussions">Besprekingsantwoorde</string>
+    <string name="notif_emergency">Noodwaarskuwings</string>
+    <string name="notif_emergency_note">Noodwaarskuwings kan nie afgeskakel word nie</string>
+    <string name="sign_out">Teken uit</string>
+</resources>

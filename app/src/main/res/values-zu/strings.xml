@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="login_subtitle">Ikhampasi yakho yonke endaweni eyodwa</string>
+    <string name="sign_in_google">Ngena nge-Google</string>
+    <string name="skip_testing">Yeqa okwamanje (ukuhlola kuphela)</string>
+    <string name="welcome_user">Siyakwamukela, %1$s</string>
+    <string name="open_settings">Izilungiselelo</string>
+    <string name="settings_title">Iphrofayela nezilungiselelo</string>
+    <string name="language">Ulimi</string>
+    <string name="notif_prefs">Izaziso</string>
+    <string name="notif_assignments">Imisebenzi ekhona</string>
+    <string name="notif_timetable">Izinguquko zethebula lesikhathi</string>
+    <string name="notif_announcements">Izimemezelo ezintsha</string>
+    <string name="notif_events">Izikhumbuzo zemicimbi</string>
+    <string name="notif_discussions">Izimpendulo zezingxoxo</string>
+    <string name="notif_emergency">Izexwayiso eziphuthumayo</string>
+    <string name="notif_emergency_note">Izexwayiso eziphuthumayo azikwazi ukucishwa</string>
+    <string name="sign_out">Phuma</string>
+</resources>

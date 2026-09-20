@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/settings_title"
+            android:textSize="26sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txtName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/txtEmail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="14sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="28dp"
+            android:text="@string/language"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <RadioGroup
+            android:id="@+id/langGroup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/langEn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="English" />
+
+            <RadioButton
+                android:id="@+id/langZu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="isiZulu" />
+
+            <RadioButton
+                android:id="@+id/langXh"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="isiXhosa" />
+
+            <RadioButton
+                android:id="@+id/langAf"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Afrikaans" />
+
+            <RadioButton
+                android:id="@+id/langSt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Sesotho" />
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="28dp"
+            android:text="@string/notif_prefs"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <com.google.android.material.materialswitch.MaterialSwitch
+            android:id="@+id/swAssignments"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/notif_assignments" />
+
+        <com.google.android.material.materialswitch.MaterialSwitch
+            android:id="@+id/swTimetable"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/notif_timetable" />
+
+        <com.google.android.material.materialswitch.MaterialSwitch
+            android:id="@+id/swAnnouncements"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/notif_announcements" />
+
+        <com.google.android.material.materialswitch.MaterialSwitch
+            android:id="@+id/swEvents"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/notif_events" />
+
+        <com.google.android.material.materialswitch.MaterialSwitch
+            android:id="@+id/swDiscussions"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/notif_discussions" />
+
+        <com.google.android.material.materialswitch.MaterialSwitch
+            android:id="@+id/swEmergency"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:enabled="false"
+            android:text="@string/notif_emergency" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/notif_emergency_note"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/btnSignOut"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:layout_marginTop="32dp"
+            android:text="@string/sign_out" />
+    </LinearLayout>
+</ScrollView>

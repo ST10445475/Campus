@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Campus</string>
+    <string name="login_title">We Love Campus</string>
+    <string name="login_subtitle">Your whole campus in one place</string>
+    <string name="sign_in_google">Sign in with Google</string>
+    <string name="skip_testing">Skip for now (testing only)</string>
+    <string name="welcome_user">Welcome, %1$s</string>
+    <string name="open_settings">Settings</string>
+    <string name="settings_title">Profile &amp; Settings</string>
+    <string name="language">Language</string>
+    <string name="notif_prefs">Notifications</string>
+    <string name="notif_assignments">Assignments due</string>
+    <string name="notif_timetable">Timetable changes</string>
+    <string name="notif_announcements">New announcements</string>
+    <string name="notif_events">Event reminders</string>
+    <string name="notif_discussions">Discussion replies</string>
+    <string name="notif_emergency">Emergency alerts</string>
+    <string name="notif_emergency_note">Emergency alerts cannot be turned off</string>
+    <string name="sign_out">Sign out</string>
+</resources>

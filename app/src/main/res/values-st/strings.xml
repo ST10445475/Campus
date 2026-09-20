@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="login_subtitle">Khamphase ea hau eohle sebakeng se le seng</string>
+    <string name="sign_in_google">Kena ka Google</string>
+    <string name="skip_testing">Tlola hona joale (bakeng sa ho leka feela)</string>
+    <string name="welcome_user">Rea u amohela, %1$s</string>
+    <string name="open_settings">Litlhophiso</string>
+    <string name="settings_title">Phrofaele le litlhophiso</string>
+    <string name="language">Puo</string>
+    <string name="notif_prefs">Litsebiso</string>
+    <string name="notif_assignments">Mesebetsi e lokelang ho fela</string>
+    <string name="notif_timetable">Liphetoho tsa nako ea lithuto</string>
+    <string name="notif_announcements">Liphatlalatso tse ncha</string>
+    <string name="notif_events">Likhopotso tsa liketsahalo</string>
+    <string name="notif_discussions">Likarabo tsa lipuisano</string>
+    <string name="notif_emergency">Litemoso tsa tšohanyetso</string>
+    <string name="notif_emergency_note">Litemoso tsa tšohanyetso ha li koaloe</string>
+    <string name="sign_out">Tsoa</string>
+</resources>
